@@ -6,6 +6,7 @@ tags: []
 # 🌦️ ESP32 IoT Weather Monitoring System
 
 An advanced IoT-based Weather Monitoring Station built using the ESP32 microcontroller and multiple environmental sensors. The system collects real-time weather and environmental data, displays measurements on an OLED display, stores data on an SD card, and transmits telemetry to cloud platforms using MQTT.
+![image](circuit-diagram.png)
 
 ---
 
@@ -140,18 +141,8 @@ WeatherStation/
 │   │
 │   └── data/
 │       └── WeatherData.h
-│
-├── docs/
-│   ├── architecture.md
-│   ├── deployment.md
-│   └── api.md
-│
-├── hardware/
-│   ├── circuit_diagram.png
-│   ├── pcb/
-│   └── enclosure/
-│
-└── assets/
+|── circuit_diagram.png
+
 ```
 
 ---
